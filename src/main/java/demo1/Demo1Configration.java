@@ -8,6 +8,8 @@ public class Demo1Configration {
 
     @Bean
     public TestDemo1 testDemo1() {
+
+
         return new TestDemo1();
     }
 }
