@@ -12,15 +12,6 @@ public class Test {
         AnnotationConfigApplicationContext act = new AnnotationConfigApplicationContext(Myconfigration.class);
         System.out.println(act.getBean("testRedis"));
 
-        int a = 1;
-        double b = 2;
-        BigDecimal aa = new BigDecimal(a);
-        BigDecimal bb = new BigDecimal(b);
-        aa.add(bb);//a+b
-        aa.subtract(bb);//a-b
-        aa.multiply(bb);//a乘以b
-        aa.divide(bb);//a除以b
-
 
 
     }
